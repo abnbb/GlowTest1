@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OrangeFilter_Helmet_PBR2_Glow
+  m_Shader: {fileID: 4800000, guid: aca18f07687fabc4db7e49da71bba513, type: 3}
+  m_ShaderKeywords: _CULLOFF_ON _EMISSIVE_BLOOM_ON _LIGHT2_ON _NORMALMAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BRDF:
+        m_Texture: {fileID: 2800000, guid: a4950bef3b00e5145b60670f2284dd7e, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: 529b4e392f3a87249af8af5765f61ba6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrradianceMap:
+        m_Texture: {fileID: 8900000, guid: 41af3790a813f8c4e8f7d987a5f25179, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 66a3830acf9bf1d40ae81466adaf1135, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicRoughnessOcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 07b031260340d4c44ad29d140bad6af8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 61e009c716775c84e8ca4f37eed40f08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PrefilterMap:
+        m_Texture: {fileID: 8900000, guid: 3c704ffacf850d648a5cb4d9038d7f36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EmissiveBloomEnable: 1
+    - _EmissiveBloomIntensity: 0.614
+    - _FrameCount: 1
+    - _FrameRate: 1
+    - _FrameX: 1
+    - _FrameY: 1
+    - _FresnelAlphaEnable: 0
+    - _IBLExposure: 1
+    - _IridescenceEnable: 0
+    - _IridescenceFallOff: 1
+    - _IridescenceIntensity: 1
+    - _IridescenceSaturation: 1
+    - _Light2Enable: 1
+    - _LightInViewEnable: 0
+    - _LightIntensity: 5
+    - _LightIntensity2: 5
+    - _Metallic: 1
+    - _Mode: 0
+    - _Occlusion: 1
+    - _RIMEnable: 0
+    - _RimFallOff: 1
+    - _Roughness: 1
+    - _SrcBlend: 1
+    - _UseSceneLight: 0
+    - _ZWrite: 1
+    - _fresnelBase: 1
+    - _fresnelIndensity: 5
+    - _fresnelScale: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveBloomColor: {r: 0.19023676, g: 0.36858132, b: 0.8962264, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 0}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDir: {r: 1, g: -1, b: 1, a: 0}
+    - _LightDir2: {r: -1, g: -1, b: 1, a: 0}
+    - _OffsetSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _UVScaleOffset: {r: 1, g: 1, b: 0, a: 0}

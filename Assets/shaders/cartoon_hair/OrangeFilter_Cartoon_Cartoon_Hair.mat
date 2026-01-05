@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OrangeFilter_Cartoon_Cartoon_Hair
+  m_Shader: {fileID: 4800000, guid: 823bd07e802b29f4f9e1f1436a9a8131, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IrradianceMap:
+        m_Texture: {fileID: 8900000, guid: e9ace7352c8c0e04480cd2f48bc424b8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cc1b0ad3a6b8b044e989b8f1f3e6c3c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: 9b7a6a70c91272942b728a7634d2a8e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientIntensity: 1
+    - _Cutoff: 0.915
+    - _DisturbIntensity: 0.757
+    - _FrameCount: 1
+    - _FrameRate: 1
+    - _FrameX: 1
+    - _FrameY: 1
+    - _Fresnel: 0.382
+    - _Shift1: 0.742
+    - _Shift2: 0.131
+    - _Smoothness1: 0.641
+    - _Smoothness2: 0.478
+    m_Colors:
+    - _AmbientTint: {r: 0.254717, g: 0.17902279, b: 0.2519582, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor1: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+    - _LightColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDir1: {r: 0, g: 0, b: 1, a: 0}
+    - _LightDir2: {r: 0, g: 0, b: -1, a: 0}
+    - _OffsetSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadeColor: {r: 0.26415092, g: 0, b: 0.100319564, a: 1}
+    - _SpecularColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _UVScaleOffset: {r: 1, g: 1, b: 0, a: 0}

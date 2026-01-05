@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: material_Material_MR
+  m_Shader: {fileID: 4800000, guid: b2c8f067f067b75489e219ac08a068b2, type: 3}
+  m_ShaderKeywords: _CULLOFF_ON _EMISSIVE_BLOOM_ON _LIGHT2_ON _NORMALMAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BRDF:
+        m_Texture: {fileID: 2800000, guid: 68d9641b750cfff488d8240608e41720, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: 9b1c5bcd73ac83148b84be0fd95f181e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrradianceMap:
+        m_Texture: {fileID: 8900000, guid: 59dc3240cc20b8646980691bfaff09ad, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 66a3830acf9bf1d40ae81466adaf1135, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 2800000, guid: db447e63d245f6d4ebff2cc3784f2bee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicRoughnessOcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 07b031260340d4c44ad29d140bad6af8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 61e009c716775c84e8ca4f37eed40f08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: db4b4e5049e6284499e9b4ead43c7371, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PrefilterMap:
+        m_Texture: {fileID: 8900000, guid: c32c484a6685347489ecf27e8d2310fb, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: ef85c4727c8bca44085f27bd9770f2fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_BaseColorSampler:
+        m_Texture: {fileID: 2800000, guid: 66a3830acf9bf1d40ae81466adaf1135, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_DiffuseEnvSampler:
+        m_Texture: {fileID: 8900000, guid: e67ed79b04178e343a5868f04b344abc, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_EmissiveSampler:
+        m_Texture: {fileID: 2800000, guid: 9b1c5bcd73ac83148b84be0fd95f181e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_MetallicRoughnessSampler:
+        m_Texture: {fileID: 2800000, guid: 8799763913eb1f547a808345d5f1b686, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_NormalSampler:
+        m_Texture: {fileID: 2800000, guid: 61e009c716775c84e8ca4f37eed40f08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_OcclusionSampler:
+        m_Texture: {fileID: 2800000, guid: db4b4e5049e6284499e9b4ead43c7371, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_SpecularEnvSampler:
+        m_Texture: {fileID: 8900000, guid: c98c341735b05e64d9f66f2ae3cb0fe8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - u_brdfLUT:
+        m_Texture: {fileID: 2800000, guid: cb06804d487108047abe427423be172c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EmissiveBloomEnable: 1
+    - _EmissiveBloomIntensity: 0.851
+    - _FrameCount: 1
+    - _FrameRate: 1
+    - _FrameX: 1
+    - _FrameY: 1
+    - _FresnelAlphaEnable: 0
+    - _IBLExposure: 1
+    - _IridescenceEnable: 0
+    - _IridescenceFallOff: 1
+    - _IridescenceIntensity: 0.13
+    - _IridescenceSaturation: 0.11
+    - _Light2Enable: 1
+    - _LightInViewEnable: 0
+    - _LightIntensity: 5
+    - _LightIntensity2: 5
+    - _Metallic: 1
+    - _Mode: 0
+    - _Occlusion: 1
+    - _RIMEnable: 0
+    - _RimFallOff: 9.18
+    - _Roughness: 1
+    - _SrcBlend: 1
+    - _UseSceneLight: 0
+    - _ZWrite: 1
+    - _fresnelBase: 1
+    - _fresnelIndensity: 5
+    - _fresnelScale: 1
+    - u_Metallic: 1
+    - u_NormalScale: 1
+    - u_OcclusionStrength: 1
+    - u_Roughness: 1
+    m_Colors:
+    - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveBloomColor: {r: 0.7607843, g: 0.8848965, b: 1, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDir: {r: 1, g: -1, b: 1, a: 0}
+    - _LightDir2: {r: -1, g: -1, b: 1, a: 0}
+    - _OffsetSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.04743683, g: 0.5379119, b: 0.7735849, a: 0.3254902}
+    - _UVScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - u_BaseColorFactor: {r: 1, g: 1, b: 1, a: 1}
+    - u_EmissiveFactor: {r: 1, g: 1, b: 1, a: 1}
+    - u_LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - u_LightDirection: {r: 0, g: 0, b: 1, a: 0}

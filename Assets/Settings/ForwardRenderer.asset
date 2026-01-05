@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2697986467496459470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5171762aa2483140b82d4aff08afa73, type: 3}
+  m_Name: NewBloomBlurRenderPassFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  BlurShader: {fileID: 4800000, guid: 8631690479de92d4cbd0b8b5ada51b26, type: 3}
+  bs: {fileID: 11400000, guid: e0a732ec535497746bd46abff98c1e3d, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: ForwardRenderer
+  m_EditorClassIdentifier: 
+  m_RendererFeatures:
+  - {fileID: -2697986467496459470}
+  - {fileID: 976495738954097532}
+  m_RendererFeatureMap: 320310349ad38eda7ca30a6db3358d0d
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 4800000, guid: 0f854b35a0cf61a429bd5dcfea30eddd,
+      type: 3}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 0
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+--- !u!114 &718632285469648613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dddc5f7a01026346905265aa424940c, type: 3}
+  m_Name: NewHelmetBloomBlurRenderPassFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  BlurShader: {fileID: 4800000, guid: 8631690479de92d4cbd0b8b5ada51b26, type: 3}
+  bs: {fileID: 0}
+--- !u!114 &976495738954097532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133003d97e6005d47b850b5abba59b83, type: 3}
+  m_Name: ColorTint RenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  setting:
+    passEvent: 550
+    ColorTintShader: {fileID: 4800000, guid: a59e19cdf03575343b32d4875b3d2a73, type: 3}
+--- !u!114 &4042292214626743290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6e5bc58548b284fb6653cb82ab5a38, type: 3}
+  m_Name: NewDepthVisualizerFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    depthMaterial: {fileID: 2100000, guid: 446bb6c190a91834080490185e46712f, type: 2}
+    renderPassEvent: 550
